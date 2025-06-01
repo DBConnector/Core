@@ -17,7 +17,7 @@
 *
 */
 
-package me.axolotldev.dbc.core
+package me.axolotldev.dbconnector.core
 
 /**
  * Holds package metadata information for the DBConnector-Core library.

@@ -17,7 +17,7 @@
 *
 */
 
-package me.axolotldev.dbc.core.connect.internal
+package me.axolotldev.dbconnector.core.connect.internal
 
 import me.axolotldev.dbc.abstracts.database.Connector
 import me.axolotldev.dbc.abstracts.database.DatabaseInfo

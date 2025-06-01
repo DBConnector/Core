@@ -17,12 +17,12 @@
 *
 */
 
-package me.axolotldev.dbc.core.connect
+package me.axolotldev.dbconnector.core.connect
 
 import me.axolotldev.dbc.abstracts.database.Connector
 import me.axolotldev.dbc.abstracts.database.DatabaseInfo
 import me.axolotldev.dbc.abstracts.database.DriverInfo
-import me.axolotldev.dbc.core.connect.internal.ConnectorImpl
+import me.axolotldev.dbconnector.core.connect.internal.ConnectorImpl
 import java.util.Properties
 
 /**
