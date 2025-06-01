@@ -19,10 +19,10 @@
 
 package me.axolotldev.dbconnector.core.connect.internal
 
-import me.axolotldev.dbc.abstracts.database.Connector
-import me.axolotldev.dbc.abstracts.database.DatabaseInfo
-import me.axolotldev.dbc.abstracts.database.DriverInfo
-import me.axolotldev.dbc.abstracts.database.TransactionManager
+import me.axolotldev.dbconnector.abstracts.database.Connector
+import me.axolotldev.dbconnector.abstracts.database.DatabaseInfo
+import me.axolotldev.dbconnector.abstracts.database.DriverInfo
+import me.axolotldev.dbconnector.abstracts.database.TransactionManager
 import java.sql.CallableStatement
 import java.sql.Connection
 import java.sql.DriverManager

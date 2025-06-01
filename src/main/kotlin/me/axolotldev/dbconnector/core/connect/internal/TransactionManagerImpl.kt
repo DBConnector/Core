@@ -19,7 +19,7 @@
 
 package me.axolotldev.dbconnector.core.connect.internal
 
-import me.axolotldev.dbc.abstracts.database.TransactionManager
+import me.axolotldev.dbconnector.abstracts.database.TransactionManager
 import java.sql.Connection
 import java.sql.SQLException
 
