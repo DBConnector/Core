@@ -76,7 +76,7 @@ class ConnectorImpl: Connector {
             throw IllegalStateException("The generated URI fails its own validation.")
         }
         Class.forName(driver.driverAddress)
-        connection = DriverManager.getConnection(uri, info.username, info.password)
+        connection = DriverManager.getConnection(uri, info.username, info.realPassword())
     }
 
     /**
