@@ -189,7 +189,7 @@ class ConnectorImpl: Connector {
 
     private fun doReconnection(): SQLException? {
         if (!(meta.getProperty("autoReconnect")?.equals("true", ignoreCase = true) ?: false)) {
-            return null
+            return SQLException("Connection Closed")
         }
 
         var remain = meta.getProperty("retryTimes")?.toIntOrNull() ?: 1
