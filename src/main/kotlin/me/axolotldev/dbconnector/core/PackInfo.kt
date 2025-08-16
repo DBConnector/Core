@@ -32,7 +32,7 @@ object PackInfo {
     const val PACK_NAME = "DBConnector-Core"
 
     /** The current version of the package */
-    const val PACK_VERSION = "1.0.2"
+    const val PACK_VERSION = "1.0.3"
 
     /** A short description of the package */
     const val DESCRIPTION = "Core component responsible for managing database connections and executing SQL commands across multiple database drivers."
